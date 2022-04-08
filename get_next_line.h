@@ -10,7 +10,7 @@
 char			*get_next_line(int fd);
 char			*ft_get_line(char *save);
 char			*ft_save(char *save);
-char			*ft_read_and_save(int fd, char *save);
+char			*ft_read(int fd, char *save);
 
 
 size_t			ft_strlen(char *str);
